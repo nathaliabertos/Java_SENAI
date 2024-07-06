@@ -68,5 +68,28 @@ Scanner scanner = new Scanner(System.in);
     } else if (idade > 65){
         System.out.println("Classificação: Idoso");
     }
+    
+    System.out.println("Digite qual exercicio deseja executar: ");
+    int exercicio = scanner.nextInt();
+    
+    switch(exercicio) {
+        case 1:
+            System.out.println("Exercicio 1");
+            break;
+        case 2:
+            System.out.println("Exercicio 2");
+            break;
+        case 3:
+            System.out.println("Exercicio 3");
+            break;
+        case 4:
+            System.out.println("Exercicio 4");
+            break;
+        default:
+            System.out.println("Nenhuma opção válida digitada");
+    }
+    
     }
 }
+
+    
